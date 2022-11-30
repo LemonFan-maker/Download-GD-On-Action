@@ -16,7 +16,7 @@ jobs:
           pip install gdown
       - name: 下载目标文件
         run: |
-          gdown -id "${{ inputs.id }}" -O "${{ inputs.name }}"
+          gdown --id "${{ inputs.id }}" -O "${{ inputs.name }}"
           tar -cvpzf ${{ inputs.name }}.tgz .
       - name: 上传
         uses: softprops/action-gh-release@v1
