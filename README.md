@@ -4,6 +4,11 @@
 由于工作原理简单，故并不支持下载 **非id** 链接
 
 GD仅支持的链接格式：
+
 *https://drive.google.com/uc?id=0B9P1L--7Wd2vU3VUVlFnbTgtS2c*
 
-**输入id时需要输入分享链接中`uc?id=`后面的部分，即0B9P1L--7Wd2vU3VUVlFnbTgtS2c**
+**或**
+
+*https://drive.google.com/open?id=0B9P1L--7Wd2vU3VUVlFnbTgtS2c*
+
+**输入id时需要输入分享链接中`uc?id=`或`open?id=`后面的部分，即0B9P1L--7Wd2vU3VUVlFnbTgtS2c**
